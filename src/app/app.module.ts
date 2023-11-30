@@ -9,6 +9,7 @@ import { UeberUnsComponent } from './pages/ueber-uns/ueber-uns.component';
 import { GraphenComponent } from './pages/graphen/graphen.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { ManuelszoneComponent } from './pages/manuelszone/manuelszone.component';
+import { ChristophzoneComponent } from './pages/christophzone/christophzone.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ManuelszoneComponent } from './pages/manuelszone/manuelszone.component'
     UeberUnsComponent,
     GraphenComponent,
     ImpressumComponent,
-    ManuelszoneComponent
+    ManuelszoneComponent,
+    ChristophzoneComponent
   ],
   imports: [
     BrowserModule,
