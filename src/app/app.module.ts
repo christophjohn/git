@@ -11,6 +11,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { ManuelszoneComponent } from './pages/manuelszone/manuelszone.component';
 import { ChristophzoneComponent } from './pages/christophzone/christophzone.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,11 @@ import { ChristophzoneComponent } from './pages/christophzone/christophzone.comp
     GraphenComponent,
     ImpressumComponent,
     ManuelszoneComponent,
+<<<<<<< HEAD
     ChristophzoneComponent
+=======
+    GraphenComponent
+>>>>>>> 710818a8614a00b178a4ca891d508e702ad9b304
   ],
   imports: [
     BrowserModule,
