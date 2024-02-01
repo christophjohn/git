@@ -6,9 +6,7 @@
     </div>
 
     <!-- RESET BUTTON -->
-    <div style="position: absolute; left: 10px; top: 10px; padding: 10px; background-color: rgb(70, 70, 73);">RESET</div>
-
-    <div  circle style="top: 30vw;" (click)="Start=true">Start</div>
+    <div style="position: absolute; left: 10px; top: 10px; padding: 10px; background-color: rgb(70, 7    <div  circle style="top: 30vw;" (click)="Start=true">Start</div>
     <div *ngIf="Start==true"  circle_spawn style="top: 50vw;"(click)="Question=true">Question 1</div>
     <div *ngIf="Start==true" line style="top: 40vw;"></div>
     <div *ngIf="Question == true" line style="top: 60vw;"  ></div>
